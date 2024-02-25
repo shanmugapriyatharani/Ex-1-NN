@@ -1,7 +1,7 @@
-<H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+<H3>SHANMUGA PRIYA T</H3>
+<H3>ENTER YOUR REGISTER NO.212222040153</H3>
 <H3>EX. NO.1</H3>
-<H3>DATE</H3>
+<H3>25/02/2024</H3>
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
 
 ## AIM:
@@ -37,7 +37,25 @@ STEP 5:Normalizing the data<BR>
 STEP 6:Splitting the data into test and train<BR>
 
 ##  PROGRAM:
-TYPE YOUR CODE HERE
+ ## >IMPORT LIBRARIES:
+
+## import libraries
+~~~from google.colab import files
+import pandas as pd
+import io
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+~~~
+
+## >READ THE DATA:
+
+~~~df = pd.read_csv('Churn_Modelling.csv')
+print(df)~~~
+
+
+
+
 
 
 ## OUTPUT:
