@@ -72,8 +72,8 @@ df.columns
 ~~~
 
 ## >ASSIGNING X:
-
-~~~X = df.iloc[:, :-1].values
+~~~
+X = df.iloc[:, :-1].values
 print(X)
 ~~~
 
